@@ -118,7 +118,7 @@ if file_uploaded is not None:
     col3, col4 = st.columns(2)
 
     with col3:
-        category = st.radio('Seleccione la categoría', unique_values)
+        category = st.radio('Seleccione la categoría de referencia', unique_values)
         sub_df_hombres = sub_df[sub_df[label] == category]
         st.write(sub_df_hombres)        
 
@@ -137,7 +137,7 @@ if file_uploaded is not None:
         st.pyplot(plt)
     
     with col4:
-        category2 = st.radio('Seleccione categoría ', unique_values)
+        category2 = st.radio('Seleccione categoría a comparar ', unique_values)
         sub_df_mujeres = sub_df[sub_df[label] == category2]
         st.write(sub_df_mujeres)
 
