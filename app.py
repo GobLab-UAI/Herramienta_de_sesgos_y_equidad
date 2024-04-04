@@ -13,6 +13,8 @@ from email.message import EmailMessage
 st.title('Herramienta de sesgos y equidad🔍')
 
 st.write('Aquí puedes cargar tu dataset y analizar los sesgos y equidad de tu modelo.')
+st.sidebar.title("Agradecimientos")
+st.sidebar.write("ANID + Subdirección de Investigación Aplicada/Concurso IDeA I+D 2023 + ID23I10357")
 
 # Método para enviar un correo electrónico
 def send_feedback_email(feedback):
