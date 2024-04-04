@@ -223,7 +223,7 @@ if file_uploaded is not None:
     #hay una mayor proporción de casos donde la prueba o el modelo indica incorrectamente la presencia
     #de la condición o la variable de interés en hombres en comparación con mujeres.
 
-    st.write(f"Tasa falsos positivos categoria {category}/{category2}",fpr_1/fpr_2)
+    st.write(f"Tasa falsos positivos categoria {category2}/{category}",fpr_1/fpr_2)
 
     #significa que la proporción de falsos negativos entre hombres es aproximadamente el 90% de la proporción 
     #de falsos negativos entre mujeres.
@@ -231,7 +231,7 @@ if file_uploaded is not None:
     #más baja de falsos negativos. Específicamente, en el contexto en el que estás trabajando, los hombres tienen 
     #menos casos donde la prueba o el modelo fallan en identificar correctamente la condición o la variable de 
     #interés en comparación con las mujeres.
-    st.write(f"Tasa falsos negativos categoria {category}/{category2}",fnr_1/fnr_2)
+    st.write(f"Tasa falsos negativos categoria {category2}/{category}",fnr_1/fnr_2)
     
 
     #significa que la proporción de falsas omisiones entre hombres es aproximadamente un 18% mayor que
@@ -240,7 +240,7 @@ if file_uploaded is not None:
     #la prueba o el modelo no indica la presencia de la condición o la variable de interés 
     #en hombres en comparación con mujeres, cuando en realidad debería haber sido detectada.
 
-    st.write(f"Tasa de falsas omisiones categoria {category}/{category2}",fomr_1/fomr_2)
+    st.write(f"Tasa de falsas omisiones categoria {category2}/{category}",fomr_1/fomr_2)
     
 
     #significa que la proporción de falsos descubrimientos entre hombres es aproximadamente un 4% 
@@ -248,7 +248,7 @@ if file_uploaded is not None:
     #Esto implica que en el contexto de tu análisis, hay una menor proporción de casos donde se 
     #hace un descubrimiento erróneo (por ejemplo, una asociación entre variables) en hombres en 
     #comparación con mujeres.
-    st.write(f"Tasa de falsos descubrimientos categoria {category}/{category2}",fdr_1/fdr_2)
+    st.write(f"Tasa de falsos descubrimientos categoria {category2}/{category}",fdr_1/fdr_2)
 
     st.write('---')
 
