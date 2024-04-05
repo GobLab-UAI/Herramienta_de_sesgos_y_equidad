@@ -1,7 +1,7 @@
 # Herramienta de Sesgos y Equidad - UAI
 
 
-Este es el repositorio de la herramienta de sesgos y equidad desarrollada por el equipo del proyecto de algoritmos éticos responsables del GobLba en la Universidad Adolfo Ibáñez.
+Este es el repositorio de la herramienta de sesgos y equidad desarrollada por el equipo del proyecto de algoritmos éticos responsables del GobLab en la Universidad Adolfo Ibáñez.
 
 ## Descripción
 
