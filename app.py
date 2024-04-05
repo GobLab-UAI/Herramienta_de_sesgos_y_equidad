@@ -9,12 +9,27 @@ from sklearn.metrics import confusion_matrix
 import smtplib
 import ssl
 from email.message import EmailMessage
+ 
+ 
+col1, col2, col3 = st.columns(3)
+
+# Mostrar la primera imagen en la primera columna
+with col1:
+    st.write("")
+    st.image("_statics/logo_algoritmosEticos.jpg")
+with col2:
+    st.image("_statics/Goblab.png")
+# Mostrar la segunda imagen en la segunda columna
+with col3:
+    st.image("_statics/UAI.png")
+
+
+
 
 st.title('Herramienta de sesgos y equidad🔍')
 
 st.write('Aquí puedes cargar tu dataset y analizar los sesgos y equidad de tu modelo.')
-st.sidebar.title("Agradecimientos")
-st.sidebar.write("ANID + Subdirección de Investigación Aplicada/Concurso IDeA I+D 2023 + ID23I10357")
+
 
 # Método para enviar un correo electrónico
 def send_feedback_email(feedback):
@@ -309,3 +324,10 @@ if file_uploaded is not None:
     df_comparacion = pd.DataFrame(comparacion)
     df_comparacion.index = [category, category2]
     st.write(df_comparacion)
+
+st.sidebar.title("Agradecimientos")
+st.sidebar.write("ANID + Subdirección de Investigación Aplicada/Concurso IDeA I+D 2023 + ID23I10357")
+# Dividir la página en dos columnas
+st.sidebar.subheader("Una iniciativa en colaboración con:")
+st.sidebar.image("_statics/ANID.png",width=100)
+st.sidebar.image("_statics/BidLab.png",width=100)
