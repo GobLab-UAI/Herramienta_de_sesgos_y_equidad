@@ -5,7 +5,7 @@ Este es el repositorio de la herramienta de sesgos y equidad desarrollada por el
 
 ## Descripción
 
-Esta herramienta puede ser usada por cualquier persona de TI que desee analizar sesgos y equidad en un proceso de inteligenica . La herramienta permite cargar datos del dataset y la salida del modelo, y luego analizar los sesgos y la equidad del modelo. La herramienta permite analizar sesgos en diferentes grupos de datos, y también permite analizar la equidad del modelo en base a diferentes métricas de equidad.
+Esta herramienta puede ser usada por cualquier persona de TI que desee analizar sesgos y equidad en un proceso de inteligencia artificial. La herramienta permite cargar datos del dataset y la salida del modelo, y luego analizar los sesgos y la equidad del modelo. La herramienta permite analizar sesgos en diferentes grupos de datos, y también permite analizar la equidad del modelo en base a diferentes métricas de equidad.
 
 ## Instalación
 
