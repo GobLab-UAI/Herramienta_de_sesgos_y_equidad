@@ -12,14 +12,14 @@ Esta herramienta puede ser usada por cualquier persona de TI que desee analizar 
 Para instalar la herramienta, se debe clonar el repositorio y luego instalar las dependencias necesarias. Para clonar el repositorio, se debe ejecutar el siguiente comando:
 
 ```bash
-git clone 
+git clone https://github.com/GobLab-UAI/Herramienta_de_sesgos_y_equidad.git
 
 ```
 
 Luego, se debe crear un ambiente virtual en python e instalar las dependencias necesarias. Para ello, se debe ejecutar el siguiente comando:
 
 ```bash
-cd equity_bias_prototype
+cd Herramienta_de_sesgos_y_equidad
 python -m venv .venv
 source .venv/bin/activate
 
