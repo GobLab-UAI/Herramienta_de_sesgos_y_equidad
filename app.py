@@ -27,8 +27,22 @@ with col3:
 
 
 st.title('Herramienta de sesgos y equidad🔍')
+st.markdown(f"<h3 style='text-align: left; color: black;'>V.2.0.0</h3>", unsafe_allow_html=True)
 
-st.write('Aquí puedes cargar tu dataset y analizar los sesgos y equidad de tu modelo.')
+st.write("""
+    Esta herramienta es un apoyo para la medición de sesgos en los modelos de ciencia de datos de clasificación binaria. Su objetivo es medir las tasas de disparidad en las variables protegidas de un conjunto de datos, para utilizar este análisis en la creación modelos de ciencias de datos más equitativos y responsables con la ciudadanía. Para la medición de sesgos se utilizan 4 métricas: tasa de falsos positivos, tasa de falsos negativos, tasa de falsa omisión y tasa de falso descubrimiento. 
+    
+    La herramienta está desarrollada en Python, y se espera que los usuarios sean científicos de datos o posiciones afines. 
+    Debe ser utilizada en la fase de desarrollo del piloto, durante la etapa de evaluación de las métricas del modelo de ciencia de datos. 
+         
+    Para más información sobre las fases, consultar la Guía Permitido Innovar (https://www.lab.gob.cl/permitido-innovar).  
+    
+    Para utilizar la herramienta, es necesario contar con el conjunto de datos en formato *.xsls* o *.csv* Como requisito mínimo, este conjunto de datos debe contener una columna para las predicciones que generó el modelo (binario), una columna para los valores reales (binario), y las columnas de las variables protegidas. A partir de esto, se seleccionan las variables protegidas del proyecto y se calcula la matriz de confusión y métricas de medición de sesgos. 
+         
+    La elección de las variables protegidas es realizada por el usuario de la herramienta y se debe llevar a cabo en conformidad con la legislación chilena actual (Ley N° 20.609), que establece la no discriminación arbitraria para las siguientes variables protegidas: la raza o etnia, el sexo, la nacionalidad, la situación socioeconómica, el idioma, la ideología u opinión política, la religión o creencia, la sindicación o participación en organizaciones gremiales o la falta de ellas, la maternidad, la lactancia materna y el amamantamiento, la orientación sexual, la identidad y expresión de género, el estado civil, la edad, la filiación, la apariencia personal y la enfermedad o discapacidad. 
+    
+    El flujo de la herramienta de medición de sesgos y equidad está basado en Aequitas (2019, Ghani).
+""")
 
 
 # Método para enviar un correo electrónico
