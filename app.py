@@ -26,7 +26,7 @@ with col3:
 
 
 
-st.title('Herramienta de sesgos y equidad🔍')
+st.title('Herramienta para medición de sesgos y equidad')
 st.markdown(f"<h3 style='text-align: left; color: black;'>V.2.0.0</h3>", unsafe_allow_html=True)
 
 st.write("""
