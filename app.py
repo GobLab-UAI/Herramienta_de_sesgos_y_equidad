@@ -21,7 +21,8 @@ with col2:
     st.image("_statics/Goblab.png")
 # Mostrar la segunda imagen en la segunda columna
 with col3:
-    st.image("_statics/UAI.png")
+    #st.image("_statics/UAI.png")
+    pass
 
 
 
@@ -344,4 +345,4 @@ st.sidebar.write("ANID + Subdirección de Investigación Aplicada/Concurso IDeA 
 # Dividir la página en dos columnas
 st.sidebar.subheader("Una iniciativa en colaboración con:")
 st.sidebar.image("_statics/ANID.png",width=100)
-st.sidebar.image("_statics/BidLab.png",width=100)
+#st.sidebar.image("_statics/BidLab.png",width=100)
