@@ -16,13 +16,14 @@ col1, col2, col3 = st.columns(3)
 # Mostrar la primera imagen en la primera columna
 with col1:
     st.write("")
-    st.image("_statics/logo_algoritmosEticos.jpg")
+    st.image("_statics/Logo_herramientas_algoritmos.png")
 with col2:
-    st.image("_statics/Goblab.png")
-# Mostrar la segunda imagen en la segunda columna
-with col3:
     #st.image("_statics/UAI.png")
     pass
+    
+# Mostrar la segunda imagen en la segunda columna
+with col3:
+    st.image("_statics/Goblab.png")
 
 
 
