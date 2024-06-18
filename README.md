@@ -64,6 +64,17 @@ En este paso se puede realizar la selección de los grupos a revisar y ver la di
 
 Finalmente, en este paso se seleccionan las categorías de referencia y se entrengan las métricas de equidad.
 
+
+## Exención de responsabilidad
+
+La ficha de transparencia es como su nombre lo indica, una herramienta desarrollada para apoyar la transparencia en la implementación de modelos de ciencia de datos e inteligencia artificial (IA). La ficha está diseñada únicamente como un soporte para quienes buscan entregar mayor información a sus usuarios o al público sobre el desarrollo de sus modelos, con el fin de fomentar la explicabilidad de las decisiones que utilizan IA o ciencia de datos. Esta es una herramienta de referencia, que debe ser completada con la información requerida  por los encargados de las instituciones que la utilizarán.
+
+La Universidad Adolfo Ibáñez (UAI) no ofrece garantías sobre el funcionamiento o el desempeño de los sistemas de ciencia de datos e IA que utilicen esta ficha. La Universidad no es responsable de ningún tipo de daño directo, indirecto, incidental, especial o consecuente, ni de pérdidas de beneficios que puedan surgir directa o indirectamente de la aplicación de la ficha en el uso o la confianza en los resultados obtenidos a través de esta herramienta. 
+
+El empleo de las herramientas desarrolladas por la Universidad no implica ni constituye un sello ni certificado de aprobación por parte de la Universidad Adolfo Ibáñez respecto al cumplimiento legal, ético o funcional de un algoritmo de inteligencia artificial. 
+
+Aquellos interesados en ser considerados  como un caso de éxito mediante el uso de estas herramientas de IA responsable deben inscribirse en los pilotos a través del formulario https://algoritmospublicos.cl/quiero_participar. Es importante destacar que el uso de nuestras herramientas y los resultados derivados de las mismas no aseguran por sí mismos que un algoritmo cumpla con los estándares éticos requeridos.
+
 ## Agradecimientos
 
-ANID + Subdirección de Investigación Aplicada/Concurso IDeA I+D 2023 + ID23I10357
+ANID, Subdirección de Investigación Aplicada/Concurso IDeA I+D 2023 proyecto ID23I10357
