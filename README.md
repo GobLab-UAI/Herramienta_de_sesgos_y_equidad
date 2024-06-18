@@ -1,6 +1,5 @@
 # Herramienta de Sesgos y Equidad - UAI
 
-
 Este es el repositorio de la herramienta de sesgos y equidad desarrollada por el equipo del proyecto de algoritmos éticos responsables del GobLab en la Universidad Adolfo Ibáñez.
 
 ## Descripción
@@ -25,6 +24,7 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 ```
+
 Finalmente, se debe ejecutar el siguiente comando para iniciar la herramienta:
 
 ```bash
@@ -35,7 +35,6 @@ streamlit run app.py
 >
 >Esta herramienta no almacena ni comparte tus datos, ya que todo el procesamiento se realiza en tu computadora y no se envía a ningún servidor externo.
 
-
 ## Uso de la herramienta
 
 Para usar la herramienta, se debe cargar un archivo de datos y un archivo de salida del modelo. Luego, se debe seleccionar las columnas de datos y la columna de predicciones. Finalmente, se debe seleccionar las columnas de grupos y las métricas de equidad que se desean analizar.
@@ -45,6 +44,7 @@ Para usar la herramienta, se debe cargar un archivo de datos y un archivo de sal
 Se pueden cargar archivos `.csv` o `.xlsx` con los datos y las predicciones del modelo. Para cargar los datos, se debe hacer clic en el botón `Cargar datos` y seleccionar el archivo con los datos. Luego debe escribir el nombre de la hoja que quiere cargar y como desea tratar los datos faltantes.
 
 ### Formato de los datos
+
 Los datos que se cargan deben tener la siguiente estructura:
 
 | Columna 1 | Columna 2 | ... | Real | Predicciones |
@@ -64,16 +64,15 @@ En este paso se puede realizar la selección de los grupos a revisar y ver la di
 
 Finalmente, en este paso se seleccionan las categorías de referencia y se entrengan las métricas de equidad.
 
-
 ## Exención de responsabilidad
 
-La ficha de transparencia es como su nombre lo indica, una herramienta desarrollada para apoyar la transparencia en la implementación de modelos de ciencia de datos e inteligencia artificial (IA). La ficha está diseñada únicamente como un soporte para quienes buscan entregar mayor información a sus usuarios o al público sobre el desarrollo de sus modelos, con el fin de fomentar la explicabilidad de las decisiones que utilizan IA o ciencia de datos. Esta es una herramienta de referencia, que debe ser completada con la información requerida  por los encargados de las instituciones que la utilizarán.
+La herramienta de medición de sesgos y equidad estadística es un recurso diseñado para evaluar el desempeño de los modelos de ciencia de datos e IA en términos de equidad. La  herramienta pretende asistir en la identificación de sesgos potenciales, pero no asegura el correcto funcionamiento o eficacia de los sistemas evaluados con ella. La herramienta está diseñada como un soporte para quienes deben tomar decisiones respecto del desempeño de los modelos, con el fin de fomentar prácticas más justas y equitativas en la ciencia de datos.
 
-La Universidad Adolfo Ibáñez (UAI) no ofrece garantías sobre el funcionamiento o el desempeño de los sistemas de ciencia de datos e IA que utilicen esta ficha. La Universidad no es responsable de ningún tipo de daño directo, indirecto, incidental, especial o consecuente, ni de pérdidas de beneficios que puedan surgir directa o indirectamente de la aplicación de la ficha en el uso o la confianza en los resultados obtenidos a través de esta herramienta. 
+La Universidad Adolfo Ibáñez (UAI) no es responsable de ningún tipo de daño directo, indirecto, incidental, especial o consecuente, ni de pérdidas de beneficios que puedan surgir directa o indirectamente de la aplicación de la herramienta, en el uso o la confianza en los resultados obtenidos a través de ésta.
 
-El empleo de las herramientas desarrolladas por la Universidad no implica ni constituye un sello ni certificado de aprobación por parte de la Universidad Adolfo Ibáñez respecto al cumplimiento legal, ético o funcional de un algoritmo de inteligencia artificial. 
+El empleo de las herramientas desarrolladas por la Universidad  no implica ni constituye un sello ni certificado de aprobación por parte de esta,  respecto al cumplimiento, legal,  ético o funcional de un algoritmo de inteligencia artificial.
 
-Aquellos interesados en ser considerados  como un caso de éxito mediante el uso de estas herramientas de IA responsable deben inscribirse en los pilotos a través del formulario https://algoritmospublicos.cl/quiero_participar. Es importante destacar que el uso de nuestras herramientas y los resultados derivados de las mismas no aseguran por sí mismos que un algoritmo cumpla con los estándares éticos requeridos.
+Aquellos interesados en ser considerados  como un caso de éxito mediante el uso de estas herramientas de IA responsable deben inscribirse en los pilotos a través del formulario https://algoritmospublicos.cl/quiero_participar. Es importante destacar que el uso de nuestras.
 
 ## Agradecimientos
 
