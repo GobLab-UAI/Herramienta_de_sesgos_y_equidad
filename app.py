@@ -48,11 +48,11 @@ st.write("""
 
 
 # Método para enviar un correo electrónico
-def send_feedback_email(feedback):
+def send_feedback_email(feedback: str, org: str):
     try:
         # Configura los detalles del correo electrónico
         msg = EmailMessage()
-        msg['Subject'] = 'Nuevo feedback para la Model UAI'
+        msg['Subject'] = f'Nuevo feedback para la herramienta de sesgos de:  {org}'
         msg['From'] = 'jspinad@gmail.com'
         msg['To'] = 'goblab@uai.cl'
         msg.set_content(feedback)
@@ -79,11 +79,12 @@ def preparar_seccion_html(clave, valor, prefijo="", sufijo=""):
 st.sidebar.title("Feedback")
 # Crea un formulario para el feedback
 with st.sidebar.form(key='feedback_form', clear_on_submit=True):
+    org = st.text_input("🏢 Organización:", max_chars=150)
     feedback = st.text_area("💬 Si tienes alguna sugerencia o comentario, deja tu feedback aquí:",key="feedback")
     submit_button = st.form_submit_button(label='Enviar Feedback 🚀 ')
 
-    if submit_button and feedback:
-        send_feedback_email(feedback)
+    if submit_button and feedback and org:
+        send_feedback_email(feedback,org)
         
 
 file_uploaded = st.file_uploader('Upload a file', type=['csv', 'xlsx'])
