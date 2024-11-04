@@ -37,7 +37,7 @@ st.write("""
     La herramienta está desarrollada en Python, y se espera que los usuarios sean científicos de datos o posiciones afines. 
     Debe ser utilizada en la fase de desarrollo del piloto, durante la etapa de evaluación de las métricas del modelo de ciencia de datos. 
          
-    Para más información sobre las fases, consultar la Guía Permitido Innovar (https://www.lab.gob.cl/permitido-innovar).  
+    Para más información sobre las fases, consultar la Guía Permitido Innovar: ¿Cómo podemos desarrollar proyectos de ciencia de datos para innovar en el sector público? disponible en https://www.lab.gob.cl/permitido-innovar .  
     
     Para utilizar la herramienta, es necesario contar con el conjunto de datos en formato *.xsls* o *.csv* Como requisito mínimo, este conjunto de datos debe contener una columna para las predicciones que generó el modelo (binario), una columna para los valores reales (binario), y las columnas de las variables protegidas. A partir de esto, se seleccionan las variables protegidas del proyecto y se calcula la matriz de confusión y métricas de medición de sesgos. 
          
